@@ -5,7 +5,7 @@ variable "aws_region" {
   default = "ap-southeast-1"
 }
 
-
+ 
 # S3 bucket for converted SAM templates
 variable "sam_code_bucket" {
   default = "cloudapp-ecommerce"
