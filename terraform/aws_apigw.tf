@@ -7,7 +7,7 @@ resource "aws_iam_role" "apigateway_execution_role" {
   description        = "Role assigned for API Gateway"
   assume_role_policy = data.aws_iam_policy_document.apigateway_trust_policy.json
 }
-
+ 
 # ----------------------------------------------------------------------
 # API Gateway Lambda Invoke Permission Policy
 # ----------------------------------------------------------------------
