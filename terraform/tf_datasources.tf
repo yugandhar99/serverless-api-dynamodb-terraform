@@ -6,7 +6,7 @@ data "aws_cloudformation_export" "api_lambda_arn_cfn_exports" {
   depends_on = [aws_cloudformation_stack.products_api_sam_stack]
   name       = "${var.app_name}-${each.value}-arn"
 }
- 
+
 # ----------------------------------------------------------------------
 # API Gateway Trust Policy
 # ----------------------------------------------------------------------
