@@ -1,7 +1,7 @@
 # ----------------------------------------------------------------------
 # Terraform Deploy template S3 Object from SAM File
 # ----------------------------------------------------------------------
-resource "aws_s3_bucket_object" "sam_deploy_object" {
+resource "aws_s3_bucket_object" "sam_deploy_object" { 
   bucket = var.sam_code_bucket
   key    = "sam-deploy-templates/${var.app_name}-deploy-${timestamp()}.yaml"
   source = "../sam/deploy.yaml"
