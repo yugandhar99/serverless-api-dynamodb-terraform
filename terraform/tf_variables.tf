@@ -1,5 +1,5 @@
 # ----------------------------------------------------------------------
-# Default AWS Region used to deploy resources
+# Default AWS Region used to deploy resources 
 # ----------------------------------------------------------------------
 variable "aws_region" {
   default = "ap-southeast-1"
