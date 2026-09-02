@@ -1,5 +1,5 @@
 # ----------------------------------------------------------------------
-# API Gateway Invoke URL 
+# API Gateway Invoke URL
 # ----------------------------------------------------------------------
 output "api_invoke_url" {
   value = aws_api_gateway_deployment.products_rest_api_deployment.invoke_url
