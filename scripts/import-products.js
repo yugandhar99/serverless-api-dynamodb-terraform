@@ -1,4 +1,4 @@
-const ora = require('ora');
+const ora = require('ora'); 
 const spinner = ora({
 	spinner: 'simpleDotsScrolling',
 });
