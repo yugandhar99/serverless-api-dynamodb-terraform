@@ -1,5 +1,5 @@
 # ----------------------------------------------------------------------
-# Terraform Deploy template S3 Object from SAM File 
+# Terraform Deploy template S3 Object from SAM File
 # ----------------------------------------------------------------------
 resource "aws_s3_bucket_object" "sam_deploy_object" {
   bucket = var.sam_code_bucket
