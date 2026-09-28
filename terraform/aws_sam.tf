@@ -1,5 +1,5 @@
 # ----------------------------------------------------------------------
-# Terraform Deploy template S3 Object from YugandharFile
+# Terraform Deploy template S3 Object from Yugandhar File
 # ----------------------------------------------------------------------
 resource "aws_s3_bucket_object" "sam_deploy_object" {
   bucket = var.sam_code_bucket
