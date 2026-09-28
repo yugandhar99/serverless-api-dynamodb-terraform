@@ -1,5 +1,5 @@
 # ----------------------------------------------------------------------
-# CloudFormation exports for Lambda Function ARNs
+# CloudFormation exports for Lambda Function ARNs 
 # ----------------------------------------------------------------------
 data "aws_cloudformation_export" "api_lambda_arn_cfn_exports" {
   for_each   = toset(var.api_lambda_functions)
