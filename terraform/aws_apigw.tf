@@ -1,7 +1,7 @@
 # ----------------------------------------------------------------------
 # API Gateway Execution Role
 # ----------------------------------------------------------------------
-resource "aws_iam_role" "apigateway_execution_role" {
+resource "aws_iam_role" "apigateway_execution_role" { 
   name               = "${var.app_name}-apigateway-role"
   path               = "/"
   description        = "Role assigned for API Gateway"
