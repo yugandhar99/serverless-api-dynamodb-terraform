@@ -1,7 +1,7 @@
 # ----------------------------------------------------------------------
 # Terraform Deploy template S3 Object from Yugandhar File
 # ----------------------------------------------------------------------
-resource "aws_s3_bucket_object" "yugandhar_deploy_object" { 
+resource "aws_s3_bucket_object" "yugandhar_deploy_object" {
   bucket = var.yugandhar_code_bucket
   key    = "yugandhar-deploy-templates/${var.app_name}-deploy-${timestamp()}.yaml"
   source = "../yugandhar/deploy.yaml"
