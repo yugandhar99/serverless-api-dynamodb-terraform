@@ -1,4 +1,4 @@
-# Serverless REST API with Lambda, API Gateway, DynamoDB, SAM and Terrafor m 
+# Serverless REST API with Lambda, API Gateway, DynamoDB, SAM and Terraform 
 
 > **Stage 4 of 12 — Career Progression Project**  
 > Portfolio project by **Yugandhar Ethamukkala**.
